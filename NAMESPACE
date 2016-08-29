@@ -1,0 +1,7 @@
+export(stepwise.ss, stagewise.ss, lars.ss, lasso.ss)
+importFrom(magic, adiag)
+importFrom(pracma, sortrows)
+importFrom(tester, is_numeric_vector, is_string_vector, is_numeric_dataframe)
+importFrom(graphics, abline, axis, lines, plot, title)
+importFrom(stats, AIC, cor, extractAIC, lm, na.omit, sd)
+importFrom(utils, tail)
